@@ -1,0 +1,18 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "A tailwind app",
+  "main": "index.js",
+  "author": "Albert Luganga",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.1",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.3"
+  }
+}
